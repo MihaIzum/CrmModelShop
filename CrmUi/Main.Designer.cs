@@ -75,8 +75,9 @@ namespace CrmUi
             // productAddToolStripMenuItem
             // 
             this.productAddToolStripMenuItem.Name = "productAddToolStripMenuItem";
-            this.productAddToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
+            this.productAddToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.productAddToolStripMenuItem.Text = "Добавить";
+            this.productAddToolStripMenuItem.Click += new System.EventHandler(this.productAddToolStripMenuItem_Click);
             // 
             // sellerToolStripMenuItem
             // 
@@ -90,8 +91,9 @@ namespace CrmUi
             // sellerAddToolStripMenuItem1
             // 
             this.sellerAddToolStripMenuItem1.Name = "sellerAddToolStripMenuItem1";
-            this.sellerAddToolStripMenuItem1.Size = new System.Drawing.Size(126, 22);
+            this.sellerAddToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.sellerAddToolStripMenuItem1.Text = "Добавить";
+            this.sellerAddToolStripMenuItem1.Click += new System.EventHandler(this.sellerAddToolStripMenuItem1_Click);
             // 
             // customerToolStripMenuItem
             // 
